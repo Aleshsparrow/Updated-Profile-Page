@@ -1,5 +1,7 @@
 body{
     background-image: url(./Assets/index-background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 nav{
     /* opacity: 0.2; */
@@ -16,11 +18,10 @@ nav{
 }
 #main{
     color: white;
-    text-align: center;
     position: relative;
     top: 203px;
-    font-size: large;
-    font-weight: bold;
+    /* font-size: large; */
+    /* font-weight: bold; */
     font-family: 'Pacifico', cursive;
 }
 /* #logo{
