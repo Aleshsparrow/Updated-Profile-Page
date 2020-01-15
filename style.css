@@ -1,0 +1,30 @@
+body{
+    background-image: url(./Assets/index-background.jpg);
+}
+nav{
+    /* opacity: 0.2; */
+    color: white;
+    display: inline;
+}
+/* #menu{ */
+    /* float: right; */
+/* } */
+#navdiv{
+    opacity: 0.5px;
+    font-size: large;
+    color: white;
+}
+#main{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 203px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+/* #logo{
+    position: relative;
+    top: -30px;
+    right: -30px;
+} */
