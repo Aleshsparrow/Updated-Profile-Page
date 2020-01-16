@@ -1,31 +1,48 @@
-body{
-    background-image: url(./Assets/index-background.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-nav{
-    /* opacity: 0.2; */
-    color: white;
-    display: inline;
-}
-/* #menu{ */
-    /* float: right; */
-/* } */
-#navdiv{
-    opacity: 0.5px;
-    font-size: large;
-    color: white;
-}
-#main{
-    color: white;
-    position: relative;
-    top: 203px;
-    /* font-size: large; */
-    /* font-weight: bold; */
-    font-family: 'Pacifico', cursive;
-}
-/* #logo{
-    position: relative;
-    top: -30px;
-    right: -30px;
-} */
+
+    body{
+        background-image: url(./Assets/index-background.jpg);
+        background-repeat: no-repeat center;
+        background-size: auto;
+        /* overflow: auto; */
+        /* background-image: linear-gradient(to bottom right, silver, gray, black); */
+    }
+    nav{
+        /* opacity: 0.2; */
+        color: white;
+        display: inline;
+        /* overflow: inherit; */
+    }
+    /* #menu{ */
+        /* float: right; */
+    /* } */
+    #navdiv{
+        /* opacity: 0.5; */
+        font-size: large;
+        color: white;
+    }
+    #main{
+        color: white;
+        position: relative;
+        top: 203px;
+        /* font-size: large; */
+        /* font-weight: bold; */
+        font-family: 'Indie Flower', cursive;
+
+    }
+    /* #logo{
+        position: relative;
+        top: -30px;
+        right: -30px;
+    } */
+    #text{
+        font-size: 20px;
+    }
+    #maintext:hover{
+        color:rgb(231, 12, 12);
+        font-size: 25px;
+        /* size: 2%; */
+        /* background-color: blueviolet; */
+    }
+    .links{
+        margin-bottom: 60px;
+    }
