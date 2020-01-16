@@ -2,15 +2,15 @@
     body{
         background-image: url(./Assets/index-background.jpg);
         background-repeat: no-repeat center;
-        background-size: auto;
-        /* overflow: auto; */
+        background-size: 100%;
+        /* overflow: hidden; */
         /* background-image: linear-gradient(to bottom right, silver, gray, black); */
     }
     nav{
         /* opacity: 0.2; */
         color: white;
         display: inline;
-        /* overflow: inherit; */
+        /* overflow: hidden; */
     }
     /* #menu{ */
         /* float: right; */
@@ -45,4 +45,7 @@
     }
     .links{
         margin-bottom: 60px;
+    }
+    button:hover{
+        color: red;
     }

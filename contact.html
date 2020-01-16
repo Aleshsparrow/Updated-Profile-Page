@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Contact</title>
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -26,51 +26,68 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <img id="logo" style="height: 50px; border-radius: 50%; width: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/4/45/Town_Crier_with_Stick_and_Gong_%28Hearing%29.jpg" alt="Town crier's goog">
+            <img id="logo" style="height: 100px; border-radius: 50%; width: 100px;" src="./Assets/Logo.png" alt="Town crier's goog">
             </nav>
 
         </div>
             
-            <div class="row">
-                    <div style="margin-left: 10px;" class="col-sm-7">
+            <div class="row" style="display: inline; box-sizing: border-box; padding: 0px;">
+                    <div style="margin-left: 10px; box-sizing: border-box;" class="col-sm-12 col-md-6">
                         <h5 style="color: whitesmoke; font-family: 'Calligraffitti', cursive;">Segun Alesinloye's</h5>
                         <h1 style="color: firebrick;">Town Criers</h1>
                         <p style="color: white;">Please let us know how we can be of service</p>
-                        <form style="color: white; width: auto;" action="">
-                            <label for="name">Name:  </label>
-                            <br>
-                            <input placeholder="Zinedine Zidane" type="text" id="name">
-                            <br>
-                            <label for="contact">Phone: </label>
-                            <br>
-                            <input placeholder="999-999-9999" type="number" name="" id="phone">
-                            <br>
-                            <label for="email">E-mail:  </label>
-                            <br>
-                            <input placeholder="zizouzidane@example.com" type="email" name="" id="email">
-                            <br>
-                            <label for="message">Message</label>
-                            <br>
-                            <input style="height: 60px;" type="text" name="" id="message">
-                            <br>
-                            <button style="margin-top: 10px;" type="submit">Submit</button>
-                        </form>
+                        
+                        <form style="color: white;">
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="zizouzidane@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Zidane Zidane">
+                              </div>
+                           
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button style="box-shadow: gray; width: 10%;" type="submit">Send</button>
+                          </form>
+                          <br>
+                          <br>
+                          
                     </div>
                 
-                    <div class="col-sm-5"></div>
+                    <div style="opacity: 0.6;" class="col-sm-12 col-md-6">
+                        <div class="card" style="width: 100%; box-sizing: border-box;">
+                            <div class="card-body">
+                              <h5 class="card-title">Services</h5>
+                              <h6 class="card-subtitle mb-2 text-muted"></h6>
+                              <p class="card-text">
+                                  <ul>
+                                      <li>Web Design</li>
+                                      <li>Web Development</li>
+                                      <li>Data Management</li>
+                                  </ul>
+                              </p>
+                              <!-- <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a> -->
+                            </div>
+                          </div>
+                    </div>
                     
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 div.col-
-            </div>
+            </div> -->
 
         <div id="main" class="row">
             <div class="col-sm-12 col-md-7">
                 <ul class="links" style="list-style-type:none; line-height: 40px;">
                     <li><a href="#" class="fa fa-phone"></a>  (999) 888 - 7777</li>
                     <li><a href="#" class="fa fa-envelope"></a>   towncriers@gmail.com</li>
-                    <li><a href="#" class="fa fa-map"></a>   Buckingham Palace</li>
+                    <li><a href="#" class="fa fa-map"></a>   Buckingham palace</li>
                 </ul>
                 
             </div>
