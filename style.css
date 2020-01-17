@@ -23,7 +23,7 @@
     #main{
         color: white;
         position: relative;
-        top: -88px;
+        /* top: -15px; */
         /* font-size: large; */
         /* font-weight: bold; */
         font-family: 'Indie Flower', cursive;
@@ -49,8 +49,17 @@
     button:hover{
         color: red;
     }
-    #card:hover{
+    #cardi:hover{
         background-color: red;
         font-size: large;
         font-weight: bolder;
     }
+    /* #cardis{
+        top: -302px;
+    }
+    @media screen and (max-width: 768px) {
+        #cardis {
+            
+          top: -28;
+        }
+      } */
