@@ -23,7 +23,7 @@
     #main{
         color: white;
         position: relative;
-        top: 203px;
+        top: -88px;
         /* font-size: large; */
         /* font-weight: bold; */
         font-family: 'Indie Flower', cursive;
@@ -48,4 +48,9 @@
     }
     button:hover{
         color: red;
+    }
+    #card:hover{
+        background-color: red;
+        font-size: large;
+        font-weight: bolder;
     }
