@@ -3,6 +3,7 @@
         background-image: url(./Assets/index-background.jpg);
         background-repeat: no-repeat center;
         background-size: 100%;
+        background-attachment: fixed;
         /* overflow: hidden; */
         /* background-image: linear-gradient(to bottom right, silver, gray, black); */
     }
@@ -53,6 +54,10 @@
         background-color: red;
         font-size: large;
         font-weight: bolder;
+    }
+    span:hover{
+        font-weight: bolder;
+        font-optical-sizing: 200px;
     }
     /* #cardis{
         top: -302px;
