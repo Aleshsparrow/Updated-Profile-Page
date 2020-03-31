@@ -2,142 +2,166 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'
+        integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous'>
+    <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'
+        integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n'
+        crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'
+        integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo'
+        crossorigin='anonymous'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
+        integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6'
+        crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="width: auto;">
-  <div style="width: 100%;" id="navdiv" class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div id="menu">
-        <!-- <h5 class="text-white h4">Menu</h5> -->
-        <!-- <span class="text-muted"> -->
-        <a href="./index.html">About</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./contact.html">Contact</a>
-        <!-- </span> -->
-      </div>
+<body>
+    <div class="row">
+        <section class="col-sm-12">
+            <img id="stars" src="./Assets/bg.jpg" alt="">
+            <img id="moon" src="./Assets/moon.png" alt="">
+            <img id="mountain" src="./Assets/mountain.png" alt="">
+            <img id="road" src="./Assets/road.png" alt="">
+            <div id="text">
+                <h1>Segun Alesinloye
+                </h1>
+                <h3>Full Stack Web Developer</h3>
+                <h6>
+                    Motto: To be the conduit between your business and the world.</h6>
+            </div>
+
+        </section>
     </div>
-    <nav class="navbar navbar-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- <img id="logo" style="height: 100px; border-radius: 50%; width: 100px;" src="./Assets/Logo.png"
-        alt="Town crier's goog"> -->
+
+    <div class="container" id="content">
+        <br><br><br>
+        <div class="row">
+            <div class="col-sm-12">
+                <br>
+                <div id="buttonlinks">
+                    <a class="link" href="index.html">
+                        <button>Home</button>
+                    </a>
+                    <a class="link" href="portfolio.html">
+                        <button>Portfolio</button>
+                    </a>
+                    <a class="link" href="contact.html">
+                        <button>Contact</button>
+                    </a>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <br><br>
+        <div class="row">
+            <h5> Some of the projects I've worked on:</h5>
+            <div class="col-sm-10">
+                <a style="text-align: left;" href="https://aleshsparrow.github.io/Weather-Dashboard-Homework/">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                          <div class="col-sm-6">
+                            <img src="./Assets/Screenshot (24).png" class="card-img" alt="...">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card-body">
+                              <h5 class="card-title">Weather Dashboard</h5>
+                              <p class="card-text">A weather web app that provides user with the current and five day forecast of any location entered.
+                                  This was a personal project.
+                              </p>
+                              <p class="card-text"><small class="text-muted">Technologies used: HTML, CSS, jquery, AJAX, API etc.</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <a href="https://pacific-chamber-07789.herokuapp.com/">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                          <div class="col-sm-6">
+                            <img src="./Assets/Screenshot (49).png" class="card-img" alt="...">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card-body">
+                              <h5 class="card-title">Hero Box</h5>
+                              <p class="card-text">A subscription based e-commerce platform that allows user to subscribe to monthly delivery of comic books. I teamed up with four other developers on this project.</p>
+                              <p class="card-text"><small class="text-muted">Technologies used: HTML, CSS, JavaScript, AJAX, API, React.js, Axios NPM package etc.</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <a href="https://sheltered-shore-12233.herokuapp.com/">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                          <div class="col-sm-6">
+                            <img src="./Assets/project2.png" class="card-img" alt="...">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card-body">
+                              <h5 class="card-title">Soil Time App</h5>
+                              <p class="card-text">This is a web app designed to educate farmers and plant lovers about what type of plant is suitable for the soil type in their locality; The app takes in user's location and supplies the soil information of that location. This app was a joint project, I teamed up with a three other developers on this project.</p>
+                              <p class="card-text"><small class="text-muted">Technologies used: HTML, CSS, JavaScript, AJAX, API, Handlebars.js, Axios NPM package etc.</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+                <a href="https://aleshsparrow.github.io/Weather-based-suggestions/">
+                    <div class="card mb-3" style="max-width: 100%;">
+                        <div class="row no-gutters">
+                          <div class="col-sm-6">
+                            <img src="./Assets/weather-based.png" class="card-img" alt="...">
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card-body">
+                              <h5 class="card-title">Weather Based Suggestions</h5>
+                              <p class="card-text">A web app built for suggesting activities based on weather conditions. User is required to enter a city or zip code into the search area. Upon click the search button, the user will be supplied with some activities and some music to go with the mood. This app was built by me and one other developer</p>
+                              <p class="card-text"><small class="text-muted">Technologies used: HTML, CSS, JavaScript, AJAX, API, Handlebars.js, Axios NPM package etc.</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </a>
+
+            </div>
+            <div class="col-sm-2">
+                <ul class="links" style="list-style-type:none">
+                    <li>LinkedIn   <a href="" class="fa fa-linkedin"></a></li>
+                    <li>Resume   <a href="file:///C:/Users/segun/OneDrive/Desktop/Resume/Segun%20J%20Alesinloye%20Resume%20(PDF).pdf"
+                            class="fa fa-file"></a></li>
+                    <!-- <li><a href="https://www.instagram.com/leshyleshgram/" class="fa fa-instagram"></a></li> -->
+                    <li>Github   <a href="https://github.com/Aleshsparrow" class="fa fa-github"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <nav style="opacity: 0.5;  margin-top: 20px;" class="navbar fixed-bottom navbar-light bg-dark">
+        <a style="font-size: 15px; color: white;" class="navbar-brand" class="fa fa-copyright" href="#">&copy;Copyright
+            2020</a>
     </nav>
 
-  </div>
-  <div class="container">
-  <div class="row">
-    <div style="margin-left: 10px;" class="col-sm-7">
-      <h2 style="color: whitesmoke; font-family: 'Calligraffitti', cursive;">Segun Alesinloye</h2>
-      <h5 style="color: firebrick;">Full Stack Web Developer</h5>
-      <br>
+    <script>
+        var bg = document.getElementById('stars');
+        var moon = document.getElementById('moon')
+        var mountain = document.getElementById('mountain')
+        var road = document.getElementById('road')
+        var text = document.getElementById('text')
 
-
-    </div>
-
-    <div class="col-sm-5"></div>
-
-  </div>
-
-  <div style="margin-bottom: 60px;" id="main" class="row">
-    <div class="col-sm-12 col-md-7">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li style="background-color: black;" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./Assets/Screenshot (24).png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1><a style="color: black;" href="https://aleshsparrow.github.io/Weather-Dashboard-Homework/">Weather
-                  Dashboard</a style="color: black;"></h1>
-              <p></p>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <img src="./Assets/developer-profile.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1><a style="color: black;">Developer Profile Generator</a></h1>
-              <p></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./Assets/Screenshot (49).png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1><a style="color: black; " href="https://pacific-chamber-07789.herokuapp.com/">Hero Box</a></h1>
-              <p></p>
-            </div>
-          </div>
-          <!--  -->
-          <div class="carousel-item">
-            <img src="./Assets/project2.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1><a style="color: white; " href="https://sheltered-shore-12233.herokuapp.com/">Soil Time App</a></h1>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span style="background-color: black;" class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span style="background-color: black;" class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span style="background-color: black;" class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-    <div class="col-sm-10 col-md-4">
-      <p id="maintext">
-        ...you know your business, we know the World Wide Web,
-        let's help connect what you know to what we know....
-      </p>
-    </div>
-    <div class="col-sm-1 col-md-1">
-      <ul class="links" style="list-style-type:none">
-        <li><a href="facebook.com/segunalesinloye" class="fa fa-facebook"></a></li>
-        <li><a href="https://twitter.com/LeshyLesh_" class="fa fa-twitter"></a></li>
-        <li><a href="https://www.instagram.com/leshyleshgram/" class="fa fa-instagram"></a></li>
-        <li><a href="https://github.com/Aleshsparrow" class="fa fa-github"></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-  <!-- <footer style="position: sticky;">
-        <p>copyright 2020</p>
-      </footer>
-  -->
-  <nav style="opacity: 0.5;" class="navbar fixed-bottom navbar-light bg-dark">
-    <a style="font-size: 15px; color: white;" class="navbar-brand" class="fa fa-copyright" href="#">&copy;Copyright
-      2020</a>
-  </nav>
-
-
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
-
+        window.addEventListener('scroll', function () {
+            var value = window.scrollY;
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+            text.style.top = value * 1 + 'px';
+        })
+    </script>
 </body>
 
-</html>
+</html> 
