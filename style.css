@@ -2,10 +2,31 @@
     body{
         background-image: url(./Assets/index-background.jpg);
         background-repeat: no-repeat center;
-        background-size: 100%;
+        background-size: cover;
         background-attachment: fixed;
         /* overflow: hidden; */
         /* background-image: linear-gradient(to bottom right, silver, gray, black); */
+    }
+    .rain{
+        height: 100vh;
+        /* background: url(https://i.dlpng.com/static/png/1704802-rain-fall-by-candysugarskullgirl9-rain-fall-by-candysugarskullgirl9-rain-hd-png-raindrops-falling-from-the-sky-png-1920_1080_preview.png); */
+        animation: rain .5s linear infinite;
+    }
+    .rain:before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        background: #fff;
+        animation: lighting .3s linear infinite;
+        opacity: 0.5;
+    }
+    @keyframes rain{
+        0%{
+            background-position: 0% 0%;
+        }
+        100%{
+            background-position: 20% 100%;
+        }
     }
     nav{
         /* opacity: 0.2; */

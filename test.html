@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <section>
+        <img id="stars" src="./Assets/bg.jpg" alt="">
+        <img id="moon" src="./Assets/moon.png" alt="">
+        <img id="mountain" src="./Assets/mountain.png" alt="">
+        <img id="road" src="./Assets/road.png" alt="">
+        <h2 id="text">Segun Alesinloye
+            <span><h6>Full Stack Web Developer</h6></span>
+        </h2>
+    </section>
+
+    <script>
+        var bg = document.getElementById('stars');
+        var moon = document.getElementById('moon')
+        var mountain = document.getElementById('mountain')
+        var road = document.getElementById('road')
+        var text = document.getElementById('text')
+
+        window.addEventListener('scroll', function(){
+            var value = window.scrollY;
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = -value * 0.15 + 'px';
+        })
+    </script>
+</body>
+</html>
