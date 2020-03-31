@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'
         integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous'>
     <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'
@@ -20,57 +21,74 @@
 </head>
 
 <body>
-    <div class="ro">
-        <section class="col-s-12">
+    <div class="row">
+        <section class="col-sm-12">
             <img id="stars" src="./Assets/bg.jpg" alt="">
             <img id="moon" src="./Assets/moon.png" alt="">
             <img id="mountain" src="./Assets/mountain.png" alt="">
             <img id="road" src="./Assets/road.png" alt="">
             <div id="text">
-                <h1 >Segun Alesinloye
+                <h1>Segun Alesinloye
                 </h1>
                 <h3>Full Stack Web Developer</h3>
                 <h6>
                     Motto: To be the conduit between your business and the world.</h6>
             </div>
-            
+
         </section>
     </div>
 
-    <div class="container" id="content" class="row">
+    <div class="container" id="content">
         <br><br><br>
-        <div class="col-s-12">
-           <h5> My name is Segun Alesinloye, I am a Full Stack Web Developer based in Chicago. 
-            I am proficient in a lot of the modern day technogies and always excited to acquire new skills.
-            Please click on the <span>"Portfolio"</span>  button below to see some of the projects I've worked on.</h5>
-            <br>
-            <div id="buttonlinks">
-                <a href="index.html">
-                    <button>Home</button>
-                </a>
-                <a href="portfolio.html">
-                    <button>Portfolio</button>
-                </a>
-                <a href="contact.html">
-                    <button>Contact</button>
-                </a>
+        <div class="row">
+            <div class="col-sm-12">
+                <h5> My name is Segun Alesinloye, I am a Full Stack Web Developer based in Chicago.
+                    I am proficient in a lot of the modern day technogies and always excited to acquire new skills.
+                    Please click on the <span>"Portfolio"</span> button below to see some of the projects I've worked
+                    on.</h5>
+                <br>
+                <div id="buttonlinks">
+                    <a class="link" href="index.html">
+                        <button>Home</button>
+                    </a>
+                    <a class="link" href="portfolio.html">
+                        <button>Portfolio</button>
+                    </a>
+                    <a class="link" href="contact.html">
+                        <button>Contact</button>
+                    </a>
+                </div>
             </div>
             <br><br>
-            <h3>Skills and Technologies</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>bootstrap</li>
-                <li>Materialize</li>
-                <li>Express</li>
-                <li>Node.js</li>
-                <li>React.js</li>
-                <li>Handlebars.js</li>
-                <li>MongoDB</li>
-                <li>MySQL  etc.</li>
-            </ul>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Skills and Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>bootstrap</li>
+                    <li>Materialize</li>
+                    <li>Express</li>
+                    <li>Node.js</li>
+                    <li>React.js</li>
+                    <li>Handlebars.js</li>
+                    <li>MongoDB</li>
+                    <li>MySQL etc.</li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <ul class="links" style="list-style-type:none">
+                    <li>LinkedIn   <a href="" class="fa fa-linkedin"></a></li>
+                    <li>Resume   <a href="file:///C:/Users/segun/OneDrive/Desktop/Resume/Segun%20J%20Alesinloye%20Resume%20(PDF).pdf"
+                            class="fa fa-file"></a></li>
+                    <!-- <li><a href="https://www.instagram.com/leshyleshgram/" class="fa fa-instagram"></a></li> -->
+                    <li>Github   <a href="https://github.com/Aleshsparrow" class="fa fa-github"></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
