@@ -53,4 +53,11 @@ section img{
     color: #fff;
     font-size: 5em;
     z-index: 1;
+    text-align: center;
+}
+#road{
+    z-index: 2;
+}
+#content{
+    width: 100%;
 }
