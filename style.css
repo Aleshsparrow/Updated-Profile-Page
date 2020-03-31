@@ -7,11 +7,7 @@
         /* overflow: hidden; */
         /* background-image: linear-gradient(to bottom right, silver, gray, black); */
     }
-    .rain{
-        height: 100vh;
-        /* background: url(https://i.dlpng.com/static/png/1704802-rain-fall-by-candysugarskullgirl9-rain-fall-by-candysugarskullgirl9-rain-hd-png-raindrops-falling-from-the-sky-png-1920_1080_preview.png); */
-        animation: rain .5s linear infinite;
-    }
+  
     .rain:before{
         content: '';
         position: absolute;
