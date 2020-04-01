@@ -8,8 +8,10 @@
 }
 body{
     background: #0a2a43;
-    min-height: 1500px;
-    max-width: 100%;
+    min-height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
 }
 section{
     position: relative;
@@ -65,17 +67,30 @@ text-align: center;
 color: ivory;
 }
 div a{
-    margin: 10px;
+    /* margin: 10px; */
+    box-sizing: border-box;
+}
+button{
+    display: inline-block;
 }
 a button{
     overflow: hidden;
     box-sizing: border-box;
     border-radius: 20px;
     padding: 10px;
-    width: 15% ;
+    width: 33% ;
     display: inline-block;
+    box-sizing: border-box;
 }
 a button:hover{
     background-color: lightgreen;
+    font-weight: bold;
+}
+#sendbtn{
+    width: 15%;
+}
+#sendbtn:hover{
+    background-color: lightgreen;
+    font-weight: bold;
 }
 

@@ -80,6 +80,7 @@
                     <li>MySQL etc.</li>
                 </ul>
             </div>
+            
             <div class="col-sm-2">
                 <ul class="links" style="list-style-type:none">
                     <li>LinkedIn <a href="https://linkedin.com/in/segun-alesinloye-969771108"
@@ -93,27 +94,14 @@
         </div>
     </div>
 
+    <br><br>
+
     <nav style="opacity: 0.5; margin-top: 10px;" class="navbar fixed-bottom navbar-light bg-dark">
         <a style="font-size: 15px; color: white;" class="navbar-brand" class="fa fa-copyright" href="#">&copy;Copyright
             2020</a>
     </nav>
 
-    <script>
-        var bg = document.getElementById('stars');
-        var moon = document.getElementById('moon')
-        var mountain = document.getElementById('mountain')
-        var road = document.getElementById('road')
-        var text = document.getElementById('text')
-
-        window.addEventListener('scroll', function () {
-            var value = window.scrollY;
-            bg.style.top = value * 0.5 + 'px';
-            moon.style.left = -value * 0.5 + 'px';
-            mountain.style.top = -value * 0.15 + 'px';
-            road.style.top = value * 0.15 + 'px';
-            text.style.top = value * 1 + 'px';
-        })
-    </script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
