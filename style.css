@@ -7,8 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
+    /* min-width: 312px;
+    min-height: 812px; */
     background: #0a2a43;
-    min-height: auto;
+    height: 100% auto;
     width: 100%;
     box-sizing: border-box;
     display: inline-block;
@@ -41,6 +43,7 @@ section:after{
     background: #0a2a43;
     z-index: 10000;
     mix-blend-mode: color;
+    opacity: 0.65;
 }
 section img{
     position: absolute;
@@ -48,7 +51,7 @@ section img{
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: inherit;
     pointer-events: none;
 }
 #text{
@@ -57,12 +60,14 @@ section img{
     /* font-size: 20em; */
     z-index: 1;
     text-align: center;
+    /* top: -50px; */
 }
 #road{
     z-index: 2;
 }
 #content{
-    width: 100%;
+width: 100%;
+height: 100%;
 text-align: center;
 color: ivory;
 }
@@ -75,7 +80,6 @@ button{
 }
 a button{
     overflow: hidden;
-    box-sizing: border-box;
     border-radius: 20px;
     padding: 10px;
     width: 33% ;
