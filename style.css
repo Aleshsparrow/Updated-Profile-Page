@@ -43,7 +43,7 @@ section:after{
     background: #0a2a43;
     z-index: 10000;
     mix-blend-mode: color;
-    opacity: 0.65;
+    opacity: 0.6;
 }
 section img{
     position: absolute;
@@ -97,4 +97,22 @@ a button:hover{
     background-color: lightgreen;
     font-weight: bold;
 }
-
+nav li{
+    display: inline-block;
+    width: auto;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: outside none none;
+    /* float: left; */
+    color: white;
+    text-emphasis: bold;
+    opacity: 1;
+}
+nav li a:hover{
+    color: red;
+    font-weight: bolder;
+}
+div ul li{
+    list-style: outside none none;
+}
