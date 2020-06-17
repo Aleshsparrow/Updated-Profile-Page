@@ -71,6 +71,7 @@ height: 100%;
 text-align: center;
 color: ivory;
 }
+
 div a{
     /* margin: 10px; */
     box-sizing: border-box;
@@ -115,4 +116,7 @@ nav li a:hover{
 }
 div ul li{
     list-style: outside none none;
+}
+A text{
+
 }
